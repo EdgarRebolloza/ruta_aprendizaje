@@ -1,0 +1,371 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*               GRIDS   CONTENEDORES*/
+.grid{  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid__verde{
+    background-color: #00953a;
+    height: 880px;
+}
+
+.grid__verde--parrafo h1{
+    margin-top: 60px;
+    margin-left: 100px;
+    text-align: left;
+    text-align-last: auto;
+}
+.grid__verde--parrafo h3{
+    margin-left: 100px;
+    text-align: left;
+    text-align-last: auto;
+}
+
+.grid__verde--reacuadro{
+    background-color:#fed925;
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 50px;
+    padding: -10px;
+    text-align: center;
+}
+
+/* PARRAFO */
+.grid__verde--reacuadro h2{
+    text-align: center;
+    padding: 10px;
+
+}
+
+/* COLOR DE LETRAS  */
+.grid__verde h1{
+    color:#ffd923;
+}
+.grid__verde h3{
+    color: white;
+}
+.grid__verde--reacuadro h2{
+    color: #5b6670;
+    background-color:#fed925;   
+}
+
+/* IMAGENES */
+.grid__verde img.bus{
+    width: 320px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.grid__verde img.pasaje{
+    width: 240px;
+    margin-top: 67px;
+    margin-left: 370px;
+}
+.grid__blanco img.logo{
+    width: 210px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+/*          FORMULARIO           */
+.grid__blanco--login{
+    margin-left: 290px;
+}
+.grid__blanco--form{
+    border: 1px;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.30);
+    border-radius: 15px;
+    padding: 100px 100px 240px;
+    min-height: 300px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.grid__blanco--form form{
+    position: absolute;
+}
+/*   */
+.nombre{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: 2px;
+    font-size: 12px;
+}
+.apellido{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: -25px;
+    font-size: 12px;
+}
+.dapellido{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: -45px;
+    font-size: 12px;
+}
+.email{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: -65px;
+    font-size: 12px;
+}
+.celular{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: -83px;
+    font-size: 12px;
+}
+.pass{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: -95px;
+    font-size: 12px;
+}
+.repass{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: -140px;
+    font-size: 12px;
+}
+.minimo{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: -33px;
+    font-size: 10px;
+}
+/* INPUTS  */
+.nombrep{
+    position: relative;
+    top: -10px;
+    right: 60px;
+}
+.apellidop{
+    position: relative;
+    top: -35px;
+    right: 60px;
+}
+.dapellidop{
+    position: relative;
+    top: -55px;
+    right: 60px;
+}
+.emailp{
+    position: relative;
+    top: -75px;
+    right: 60px;
+}
+.celularp{
+    position: relative;
+    top: -90px;
+    right: 60px;
+}
+.passp{
+    position: relative;
+    top: -135px;
+    right: 60px;
+}
+.repassp{
+    position: relative;
+    top: -135px;
+    right: 60px;
+}
+.passp{
+    position: relative;
+    top: -140px;
+    right: 60px;
+}
+
+/*  */
+.ck{
+    box-sizing: border-box;
+    position: relative;
+    right: 157px;
+    top: -130px;
+    transform: scale(0.5);
+}
+/*  */
+.grid__blanco--form h2{
+    color:#00953a;
+    position: relative;
+    left: 33px;
+    top: -178px;
+    font-size: 12px;
+    width: 200px;
+}
+.grid__blanco--form h2:hover{
+    color: #ffc107;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.grid__blanco--form h3{
+    color:#7c858c;
+    position: relative;
+    right: 40px;
+    top: -150px;
+    font-size: 12px;
+}
+/* .grid__blanco--form h5{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: -4px;
+    font-size: 12px;
+} */
+/* .grid__blanco--form h6{
+    color:#7c858c;
+    position: relative;
+    right: 60px;
+    top: -20px;
+    font-size: 9px;
+} */
+.grid__blanco--form input{
+    height: 25px;
+    width: 210px;
+    line-height: 1.5;
+    border-radius: .2rem;
+    overflow: visible;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.grid__blanco--form input:hover{
+    border-color: lightskyblue;
+    border-width: 1px;
+}
+/*              FORM BOTONES         */
+.grid__blanco--form .ingresar{
+    cursor: pointer;
+    border: #00953a;
+    background-color: #00953a;
+    padding: .6rem 3rem;
+    border-radius: .7rem;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1.5;
+    user-select: none;
+    
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: -15px;
+    font-family: 'Montserrat', sans-serif;
+    width: 130px;
+    height: 40px;    
+}
+.nocuentabtn{
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid transparent;
+
+    background-color: #d1d1d1;
+    padding: .6rem 3rem;
+    border-radius: .7rem;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1.5;
+    user-select: none;
+    
+    padding: 0px;
+    margin-top: -280px;
+    margin-left: -15px;
+    font-family: 'Montserrat', sans-serif;
+    width: 140px;
+    height: 40px;  
+}
+
+.grid__blanco--inicio{
+    margin-left: 500px;
+    margin-top: -730px;
+
+    font-size: 200px;
+    border-bottom: 5px solid;
+    width: 40px;
+
+    color: #00953b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+    position: relative;
+
+}
+a {
+    color: #007bff;
+    background-color: transparent;
+}
+a:-webkit-any-link {
+    color: #00953b;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.grid__blanco--form p{
+    font-size: 12px;
+    margin-left: -20px;
+    padding: 3px;
+    color: #00953b;
+    text-decoration: underline;
+}
+.grid__blanco--form h4{
+    position: relative;
+    left: -30px;
+    color: #5b6670;
+}
+
+/*  CAMBIOS PARA REGISTRO */
+.grid__blanco--formDatos{
+    margin-top: -100px;
+}
+.grid__blanco--formDatos p{
+    margin-right: 300px;
+}
+
+.error{
+    position: relative;
+    right: 40px;
+    top: -20px;
+    color: red;
+    display: none;
+    height: 0%;
+}
+.error-activo{
+    display: inline;
+    top: 20px;
+    right: 260px;
+}
+.errord{
+    position: relative;
+    right: 40px;
+    top: -20px;
+    color: red;
+    display: none;
+}
+.error-activod{
+    display: inline;
+    top: 20px;
+    right: 260px;    
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registro.css">
+    
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!--  -->
+    
+    <title>Registro</title>
+</head>
+<body>
+
+    <div class="grid">
+
+        <div class="grid__verde">
+            
+            <div class="grid__verde--parrafo">
+                <h1>Mi Transporte utiliza el pago electrónico,</h1>
+                <h3>con múltiples beneficios para ti</h3>    
+            </div>
+
+            <div class="grid__verde--reacuadro">
+                <h2>Enterate de los beneficios</h2>
+            </div>
+
+            <img src="../assets/camion.d0e11e07.svg" alt="camion" class="bus">
+
+            <img src="../assets/logo-transportejalisco.3efe3c86.svg" alt="mi_pasaje" class="pasaje">
+        </div>
+        
+        <div class="grid__blanco">
+
+            <img src="../assets/logo-mipasaje.3cadc1e3.svg" alt="logo" class="logo">
+            
+            <div class="grid__blanco--form">
+                <form >
+
+                    <div class="grid__blanco--formDatos" id="formulario">
+                        <h5 class="nombre">Nombre(s) *</h5>
+                        <input class="nombrep" name="nombre" type="text">
+                        <p class="errord" id="errord" style="text-decoration:none";>Este campo es requerido</p>
+                        
+                        <h5 class="apellido">Primer apellido *</h5>
+                        <input class="apellidop" name="unoapellido" type="text">
+                        <p class="errord" id="errord" style="text-decoration:none";>Este campo es requerido</p>
+    
+                        <h5 class="dapellido">Segundo apellido *</h5>
+                        <input class="dapellidop"  name="dosapellido" type="text">
+                        <p class="errord" id="errord" style="text-decoration:none";>Este campo es requerido</p>
+                        
+                        <h5 class="email">Correo electrónico *</h5>
+                        <input class="emailp" name="correo" type="text">
+                        <p class="errord" id="errord" style="text-decoration:none";>Este campo es requerido</p>
+    
+                        <h5 class="celular">Celular *</h5>
+                        <input class="celularp"  name="celular" type="text">
+                        <p class="errord" id="errord" style="text-decoration:none";>Este campo es requerido</p>
+    
+                        <h5 class="pass">Contraseña *</h5>
+                        <h6 class="minimo">Mínimo 8 caracteres</h6>
+                        <input class="passp" name="password"  type="password">
+                        <p class="errord" id="errord" style="text-decoration:none";>Este campo es requerido</p>
+    
+                        <h5 class="repass">Confirmar contraseña *</h5>
+                        <input class="repassp" name="repassword" type="password">
+                        <p class="errord" id="errord" style="text-decoration:none";>Este campo es requerido</p>
+                        
+                        <input class="ck" name="terminos" type="checkbox">
+                        <h3>He leído el</h3><h2>aviso de privacidad</h2>
+                        <p class="errord" id="errord" style="text-decoration:none";>Este campo es requerido</p>
+    
+                        <button type="submit" class="nocuentabtn">Registrarme</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- <h4 class="grid__blanco--inicio">
+                <a href="" style="text-decoration:none">Iniciar sesión</a>
+            </h4> -->
+
+        </div>
+
+    </div>
+<script src="../js/registro.js"></script>
+</body>
+</html>
